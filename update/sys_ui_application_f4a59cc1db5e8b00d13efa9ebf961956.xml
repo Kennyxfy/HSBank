@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>HSBank</name>
+        <order/>
+        <roles>x_sogd_hsbank.hsbank_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2017-11-06 02:43:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4a59cc1db5e8b00d13efa9ebf961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HSBank</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HSBank" source="x_sogd_hsbank">60e35881db5e8b00d13efa9ebf961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HSBank">60e35881db5e8b00d13efa9ebf961922</sys_scope>
+        <sys_update_name>sys_ui_application_f4a59cc1db5e8b00d13efa9ebf961956</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2017-11-06 02:43:34</sys_updated_on>
+    </sys_ui_application>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="HSBank" max_length="40" name="x_sogd_hsbank_hsbank" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Branch/自动关联可选择" max_length="40" name="u_branch" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Call From" mandatory="true" max_length="40" name="u_call_from" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City/自动关联可选择" mandatory="true" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Person/可更改自动关联" mandatory="true" max_length="40" name="u_contact_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Phone No/可更改自动关联" mandatory="true" max_length="40" name="u_contact_phone_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Created by" max_length="40" name="u_created_by" type="string" use_dependent_field="true"/>
+        <element label="Created Date/需要自动显示创建日期时间" max_length="40" name="u_created_date" type="glide_date_time"/>
+        <element label="Created" max_length="40" name="u_created_on" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="District/自动关联" mandatory="true" max_length="40" name="u_district" type="string"/>
+        <element label="Location/自动关联可选择" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone No/看看是否可以显示来电" mandatory="true" max_length="40" name="u_phone_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address/自动关联" mandatory="true" max_length="40" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quick Ticket" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="District" mandatory="true" max_length="40" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service Loc" max_length="40" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" mandatory="true" max_length="40" name="u_string_12" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Phone No" mandatory="true" max_length="40" name="u_string_14" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_string_15" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fax" max_length="40" name="u_string_16" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Person" mandatory="true" max_length="40" name="u_string_17" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial No./自动关联地址和合同" max_length="40" name="u_string_18" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract No" max_length="40" name="u_string_19" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Call Received By" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client User Id" max_length="40" name="u_string_20" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Type" max_length="40" name="u_string_21" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ref.No./自动关联地址和合同" max_length="40" name="u_string_22" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Asset No" max_length="40" name="u_string_23" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Equipment Email" max_length="40" name="u_string_24" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Effective Date" max_length="40" name="u_string_25" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model Type" max_length="40" name="u_string_26" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiry Date" max_length="40" name="u_string_27" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model No." max_length="40" name="u_string_28" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Warranty" max_length="40" name="u_string_29" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Id" max_length="40" name="u_string_30" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_string_31" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Symptom" mandatory="true" max_length="3000" name="u_string_32" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Solution" max_length="3000" name="u_string_33" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Call Type" mandatory="true" max_length="40" name="u_string_35" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cat1" mandatory="true" max_length="40" name="u_string_36" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cat2" mandatory="true" max_length="40" name="u_string_37" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assign To" mandatory="true" max_length="40" name="u_string_38" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" mandatory="true" max_length="40" name="u_string_39" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Call From" mandatory="true" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service Level/自动关联" mandatory="true" max_length="40" name="u_string_40" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service Time/自动关联" mandatory="true" max_length="40" name="u_string_41" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rending Reason" max_length="40" name="u_string_42" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Complete Date/自动关联状态" max_length="40" name="u_string_43" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Create Note" max_length="40" name="u_string_44" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Trip" max_length="40" name="u_string_45" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Call Source" mandatory="true" max_length="40" name="u_string_46" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Center" max_length="40" name="u_string_47" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_string_48" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SO Type" max_length="40" name="u_string_49" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Token Unit" max_length="40" name="u_string_50" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Ref#" max_length="40" name="u_string_51" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client Ref#" max_length="40" name="u_string_52" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="u_string_53" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="History Call" max_length="40" name="u_string_54" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Related SO No." max_length="40" name="u_string_56" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Suggest part" max_length="40" name="u_string_57" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SLID" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Call Email" max_length="40" name="u_string_7" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone No" mandatory="true" max_length="40" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" mandatory="true" max_length="40" name="u_string_9" type="string"/>
+        <index name="index">
+            <element name="u_location"/>
+        </index>
+    </element>
+</database>

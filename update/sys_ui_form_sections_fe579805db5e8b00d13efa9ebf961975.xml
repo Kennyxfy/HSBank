@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="fe579805db5e8b00d13efa9ebf961975" sys_domain="global" table="x_sogd_hsbank_hsbank" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-06 02:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe579805db5e8b00d13efa9ebf961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sogd_hsbank_hsbank" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">fe579805db5e8b00d13efa9ebf961975</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">96c59cc1db5e8b00d13efa9ebf9619a5</sys_ui_section>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-06 02:51:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-06 03:08:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a5b1c85db5e8b00d13efa9ebf961910</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sogd_hsbank_hsbank" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">fe579805db5e8b00d13efa9ebf961975</sys_ui_form>
+            <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">0e5b1c85db5e8b00d13efa9ebf96190d</sys_ui_section>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 02:39:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-06 03:16:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a11dd4c5db5e8b00d13efa9ebf9619cd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sogd_hsbank_hsbank" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">fe579805db5e8b00d13efa9ebf961975</sys_ui_form>
+            <sys_ui_section caption="Diagnosis" display_value="Diagnosis" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">e11dd4c5db5e8b00d13efa9ebf9619ca</sys_ui_section>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 02:39:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-06 03:21:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>313e9009db5e8b00d13efa9ebf961902</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sogd_hsbank_hsbank" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">fe579805db5e8b00d13efa9ebf961975</sys_ui_form>
+            <sys_ui_section caption="Survey Result" display_value="Survey Result" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">753e1009db5e8b00d13efa9ebf961964</sys_ui_section>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 02:39:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-06 03:24:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30fe1809db5e8b00d13efa9ebf96194d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sogd_hsbank_hsbank" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">fe579805db5e8b00d13efa9ebf961975</sys_ui_form>
+            <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hsbank_hsbank" sys_domain="global" view="Default view">f4fe1809db5e8b00d13efa9ebf961949</sys_ui_section>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 02:39:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_sogd_hsbank_hsbank</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-06 02:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe579805db5e8b00d13efa9ebf961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sogd_hsbank_hsbank</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HSBank" source="x_sogd_hsbank">60e35881db5e8b00d13efa9ebf961922</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HSBank">60e35881db5e8b00d13efa9ebf961922</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fe579805db5e8b00d13efa9ebf961975</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-06 02:51:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>HSBank</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_sogd_hsbank_hsbank</name>
+        <number_ref display_value="HSB">c1a59cc1db5e8b00d13efa9ebf961993</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2017-11-06 02:43:34</sys_created_on>
+        <sys_id>29651cc1db5e8b00d13efa9ebf96196f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HSBank</sys_name>
+        <sys_package display_value="HSBank" source="x_sogd_hsbank">60e35881db5e8b00d13efa9ebf961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HSBank">60e35881db5e8b00d13efa9ebf961922</sys_scope>
+        <sys_update_name>sys_db_object_29651cc1db5e8b00d13efa9ebf96196f</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2017-11-06 02:43:35</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_sogd_hsbank.hsbank_user" name="x_sogd_hsbank.hsbank_user">f8a51cc1db5e8b00d13efa9ebf961973</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

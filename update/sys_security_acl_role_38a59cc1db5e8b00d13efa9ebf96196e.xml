@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2017-11-06 02:43:34</sys_created_on>
+        <sys_id>38a59cc1db5e8b00d13efa9ebf96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sogd_hsbank_hsbank.x_sogd_hsbank.hsbank_user</sys_name>
+        <sys_package display_value="HSBank" source="x_sogd_hsbank">60e35881db5e8b00d13efa9ebf961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HSBank">60e35881db5e8b00d13efa9ebf961922</sys_scope>
+        <sys_security_acl display_value="x_sogd_hsbank_hsbank">34a59cc1db5e8b00d13efa9ebf96195f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_38a59cc1db5e8b00d13efa9ebf96196e</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2017-11-06 02:43:34</sys_updated_on>
+        <sys_user_role display_value="x_sogd_hsbank.hsbank_user" name="x_sogd_hsbank.hsbank_user">f8a51cc1db5e8b00d13efa9ebf961973</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
