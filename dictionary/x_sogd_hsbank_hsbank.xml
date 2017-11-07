@@ -2,8 +2,84 @@
 <database>
     <element label="HSBank" max_length="40" name="x_sogd_hsbank_hsbank" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Action" max_length="40" name="u_action" type="string"/>
+        <element label="Actual arrival" max_length="40" name="u_actual_arrival" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Branch/自动关联可选择" max_length="40" name="u_branch" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Call From" mandatory="true" max_length="40" name="u_call_from" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Call Source" mandatory="true" max_length="40" name="u_call_source" type="string">
+            <choice>
+                <element label="Email" sequence="0" value="Email"/>
+                <element label="Phone" sequence="1" value="Phone"/>
+                <element label="Internet" sequence="2" value="Internet"/>
+                <element label="Walk in" sequence="3" value="Walk in"/>
+                <element label="Voice Mail" sequence="4" value="Voice Mail"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Call Type" mandatory="true" max_length="40" name="u_call_type" type="string">
+            <choice>
+                <element label="Event" sequence="0" value="Event"/>
+                <element label="Request" sequence="1" value="Request"/>
+                <element label="Incident" sequence="2" value="Incident"/>
+                <element label="Complaint" sequence="3" value="Complaint"/>
+                <element label="Compliment" sequence="4" value="Compliment"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Cat1" max_length="40" name="u_cat1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cat2" max_length="40" name="u_cat2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Center" max_length="40" name="u_center" type="string">
+            <choice>
+                <element label="BJ" sequence="0" value="BJ"/>
+                <element label="CC" sequence="1" value="CC"/>
+                <element label="CD" sequence="2" value="CD"/>
+                <element label="CQ" sequence="3" value="CQ"/>
+                <element label="CS" sequence="4" value="CS"/>
+                <element label="DL" sequence="5" value="DL"/>
+                <element label="FZ" sequence="6" value="FZ"/>
+                <element label="GZ" sequence="7" value="GZ"/>
+                <element label="HB" sequence="8" value="HB"/>
+                <element label="HF" sequence="9" value="HF"/>
+                <element label="HH" sequence="10" value="HH"/>
+                <element label="HK" sequence="11" value="HK"/>
+                <element label="HN" sequence="12" value="HN"/>
+                <element label="HQ" sequence="13" value="HQ"/>
+                <element label="HZ" sequence="14" value="HZ"/>
+                <element label="JN" sequence="15" value="JN"/>
+                <element label="KM" sequence="16" value="KM"/>
+                <element label="LZ" sequence="17" value="LZ"/>
+                <element label="NB" sequence="18" value="NB"/>
+                <element label="NJ" sequence="19" value="NJ"/>
+                <element label="NN" sequence="20" value="NN"/>
+                <element label="QD" sequence="21" value="QD"/>
+                <element label="SH" sequence="22" value="SH"/>
+                <element label="SJ" sequence="23" value="SJ"/>
+                <element label="SU" sequence="24" value="SU"/>
+                <element label="SY" sequence="25" value="SY"/>
+                <element label="SZ" sequence="26" value="SZ"/>
+                <element label="TJ" sequence="27" value="TJ"/>
+                <element label="TS" sequence="28" value="TS"/>
+                <element label="TY" sequence="29" value="TY"/>
+                <element label="WH" sequence="30" value="WH"/>
+                <element label="XA" sequence="31" value="XA"/>
+                <element label="XJ" sequence="32" value="XJ"/>
+                <element label="XM" sequence="33" value="XM"/>
+                <element label="ZH" sequence="34" value="ZH"/>
+                <element label="ZZ" sequence="35" value="ZZ"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_11" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="City/自动关联可选择" mandatory="true" max_length="40" name="u_city" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Person/可更改自动关联" mandatory="true" max_length="40" name="u_contact_person" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Phone No/可更改自动关联" mandatory="true" max_length="40" name="u_contact_phone_no" type="string"/>
@@ -11,8 +87,36 @@
         <element label="Created Date/需要自动显示创建日期时间" max_length="40" name="u_created_date" type="glide_date_time"/>
         <element label="Created" max_length="40" name="u_created_on" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="District/自动关联" mandatory="true" max_length="40" name="u_district" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Job" max_length="40" name="u_job" type="string"/>
         <element label="Location/自动关联可选择" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pending Reason" max_length="40" name="u_pending_reason" type="string">
+            <choice>
+                <element label="Pending-User" sequence="0" value="Pending-User"/>
+                <element label="Pending-Vendor" sequence="1" value="Pending-Vendor"/>
+                <element label="Pending-User IT" sequence="2" value="Pending-User IT"/>
+                <element label="Pending-Cust approval" sequence="3" value="Pending-Cast approval"/>
+                <element label="Wait Control's Confirmation" sequence="4" value="Wait Control's Confirmation"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Phone No/看看是否可以显示来电" mandatory="true" max_length="40" name="u_phone_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SO Type" max_length="40" name="u_so_type" type="string">
+            <choice>
+                <element label="Contracted" sequence="0" value="Contracted"/>
+                <element label="Purchase" sequence="1" value="Purchase"/>
+                <element label="Per_Call" sequence="2" value="Per_Call"/>
+                <element label="Presale" sequence="3" value="Presale"/>
+                <element label="Others" sequence="4" value="Others"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Open" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="Open"/>
+                <element label="Pending" sequence="1" value="Pending"/>
+                <element label="Dispatch" sequence="2" value="Dispatcl"/>
+                <element label="Complete" sequence="3" value="Complete"/>
+                <element label="Resolved" sequence="4" value="Resolved"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Address/自动关联" mandatory="true" max_length="40" name="u_street" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Quick Ticket" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="District" mandatory="true" max_length="40" name="u_string_10" type="string"/>
@@ -37,13 +141,22 @@
         <element attributes="edge_encryption_enabled=true" label="Vendor Warranty" max_length="40" name="u_string_29" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="u_string_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="User Id" max_length="40" name="u_string_30" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_string_31" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="3000" name="u_string_31" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Symptom" mandatory="true" max_length="3000" name="u_string_32" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Solution" max_length="3000" name="u_string_33" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Call Type" mandatory="true" max_length="40" name="u_string_35" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Cat1" mandatory="true" max_length="40" name="u_string_36" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Cat2" mandatory="true" max_length="40" name="u_string_37" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Assign To" mandatory="true" max_length="40" name="u_string_38" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assign To" mandatory="true" max_length="40" name="u_string_38" type="string">
+            <choice>
+                <element label="3rd service" sequence="0" value="3rd service"/>
+                <element label="Center" sequence="1" value="Center"/>
+                <element label="Control" sequence="2" value="Control"/>
+                <element label="Customer IT" sequence="3" value="Customer IT"/>
+                <element label="Customer Vender" sequence="4" value="Customer Vender"/>
+                <element label="Helpdesk" sequence="5" value="Helpdesk"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Status" mandatory="true" max_length="40" name="u_string_39" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Call From" mandatory="true" max_length="40" name="u_string_4" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Service Level/自动关联" mandatory="true" max_length="40" name="u_string_40" type="string"/>
@@ -54,7 +167,7 @@
         <element attributes="edge_encryption_enabled=true" label="Trip" max_length="40" name="u_string_45" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Call Source" mandatory="true" max_length="40" name="u_string_46" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Center" max_length="40" name="u_string_47" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_string_48" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="1000" name="u_string_48" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="SO Type" max_length="40" name="u_string_49" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Customer" max_length="40" name="u_string_5" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Token Unit" max_length="40" name="u_string_50" type="string"/>
@@ -68,6 +181,17 @@
         <element attributes="edge_encryption_enabled=true" label="Call Email" max_length="40" name="u_string_7" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone No" mandatory="true" max_length="40" name="u_string_8" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="City" mandatory="true" max_length="40" name="u_string_9" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Trip" max_length="40" name="u_trip" type="string">
+            <choice>
+                <element label="X" sequence="0" value="X"/>
+                <element label="Onsite" sequence="1" value="Onsite"/>
+                <element label="Scheduled" sequence="2" value="Scheduled"/>
+                <element label="Phone Support" sequence="3" value="Phone Support"/>
+                <element label="Remote Support" sequence="4" value="Remote Support"/>
+                <element label="Other" sequence="5" value="Other"/>
+            </choice>
+        </element>
+        <element label="Want Need" max_length="40" name="u_want_need" type="glide_date_time"/>
         <index name="index">
             <element name="u_location"/>
         </index>

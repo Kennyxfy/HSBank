@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_trip" table="x_sogd_hsbank_hsbank" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>X</label>
+            <language>en</language>
+            <name>x_sogd_hsbank_hsbank</name>
+            <sequence>0</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-07 07:11:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91ac1259db1acb00d13efa9ebf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 07:11:54</sys_updated_on>
+            <value>X</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Onsite</label>
+            <language>en</language>
+            <name>x_sogd_hsbank_hsbank</name>
+            <sequence>1</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-07 07:11:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1ac1259db1acb00d13efa9ebf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 07:11:54</sys_updated_on>
+            <value>Onsite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scheduled</label>
+            <language>en</language>
+            <name>x_sogd_hsbank_hsbank</name>
+            <sequence>2</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-07 07:11:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51ac1259db1acb00d13efa9ebf961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 07:11:54</sys_updated_on>
+            <value>Scheduled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phone Support</label>
+            <language>en</language>
+            <name>x_sogd_hsbank_hsbank</name>
+            <sequence>3</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-07 07:11:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddac1259db1acb00d13efa9ebf961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 07:11:54</sys_updated_on>
+            <value>Phone Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remote Support</label>
+            <language>en</language>
+            <name>x_sogd_hsbank_hsbank</name>
+            <sequence>4</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-07 07:11:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5dac1259db1acb00d13efa9ebf961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 07:11:54</sys_updated_on>
+            <value>Remote Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_sogd_hsbank_hsbank</name>
+            <sequence>5</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-07 07:11:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9ac1259db1acb00d13efa9ebf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 07:11:54</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_trip</element>
+            <name>x_sogd_hsbank_hsbank</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-07 07:11:54</sys_created_on>
+            <sys_id>9dac1259db1acb00d13efa9ebf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_trip</sys_name>
+            <sys_package display_value="HSBank" source="x_sogd_hsbank">60e35881db5e8b00d13efa9ebf961922</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HSBank">60e35881db5e8b00d13efa9ebf961922</sys_scope>
+            <sys_update_name>sys_choice_x_sogd_hsbank_hsbank_u_trip</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-07 07:11:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

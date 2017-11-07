@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_job</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Fayu.xu</sys_created_by>
+        <sys_created_on>2017-11-07 08:45:48</sys_created_on>
+        <sys_id>7d02fa91db5acb00d13efa9ebf9619f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_job</sys_name>
+        <sys_package display_value="HSBank" source="x_sogd_hsbank">60e35881db5e8b00d13efa9ebf961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HSBank">60e35881db5e8b00d13efa9ebf961922</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7d02fa91db5acb00d13efa9ebf9619f8</sys_update_name>
+        <sys_updated_by>Fayu.xu</sys_updated_by>
+        <sys_updated_on>2017-11-07 08:47:22</sys_updated_on>
+        <table>x_sogd_hsbank_hsbank</table>
+        <ui_policy display_value="show/hide want need">4e40fa91db5acb00d13efa9ebf9619f0</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
